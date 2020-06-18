@@ -1,7 +1,7 @@
 %global _hardened_build 1
 
 Name:               pmacct
-Version:            1.5.2
+Version:            1.7.5
 Release:            2
 Summary:            Accounting and aggregation toolsuite for IPv4 and IPv6
 License:            GPLv2+
@@ -17,7 +17,7 @@ Source6:            sfacctd
 Source7:            uacctd.service
 Source8:            uacctd
 
-Patch1:             pmacct-fix-implicit-pointer-decl.diff
+# Patch1:             pmacct-fix-implicit-pointer-decl.diff
 
 BuildRequires:      gcc
 BuildRequires:      make
